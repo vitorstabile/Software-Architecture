@@ -1069,6 +1069,58 @@ There are some minor variations in the number and naming of the steps involved w
 
 <br>
 
+**Step 1 – Discovering architectural drivers**
+
+The first step in the ACDM is to meet with stakeholders to determine the architectural drivers, which include design objectives, primary functional requirements, quality attribute scenarios, constraints, and architectural concerns. The prioritization of quality attribute scenarios also takes place in this step.
+
+**Step 2 – Establishing project scope**
+
+In this step, the architectural drivers established in Step 1 are reviewed. First, consolidation of the information gathered takes place to remove duplicate architectural drivers.
+
+Next, if any of the architectural drivers gathered are unclear, missing, or incomplete, additional information will be needed. The same is true of any requirements or quality attribute scenarios that are not measurable or testable.
+
+If any clarification or additional information is needed, it will be gathered in this step from the relevant stakeholders.
+
+**Step 3 – Creating notional architecture**
+
+Using the architectural drivers, a notional architecture is created. It is the first attempt at designing the architecture. The initial representations of the structures that make up the architecture are created and documented.
+
+Not a lot of time is typically spent on the notional architecture. The idea is that the architecture will be refined through multiple iterations until it is complete.
+
+**Step 4 – Architectural review**
+
+During this step, a review is conducted on the architecture as it currently exists. Reviews may be conducted internally, externally with stakeholders, or there may even be multiple review sessions so that both internal and external ones can be conducted.
+
+The purpose of the review is to ensure that all of the design decisions are correct and to uncover any potential issues or problems with the architecture. For a given design decision, alternative approaches can be discussed, along with the trade-offs and the rationale behind the decision, in order to determine whether the best alternative was taken.
+
+**Step 5 – Production go/no-go**
+
+Once the architectural review is complete, a decision is made as to whether the architecture is complete and ready for production, or if further refinement is needed. In the ACDM context, production refers to implementation, including using the architecture in the detailed design of elements, coding, integration, and testing.
+
+Any risks identified during the architectural review are considered in the production go/no-go decision. The decision does not have to be an all-or-nothing one. It is possible that only parts of the design require further refinement, in which case a portion of the design can move on to production.
+
+If the production decision is a go, and no further refinements are needed, the process can skip ahead to production planning, and eventually on to production. However, if the production decision is a no-go, then the process moves on to Step 6.
+
+**Step 6 – Experiment planning**
+
+In this step, any experiments that the team feels are necessary are planned. The purpose of an experiment may be to resolve an issue uncovered during the architectural review, to gain a greater understanding of one or more architectural drivers, or to improve elements and modules of the design before they are committed to the overall architecture.
+
+Experiment planning includes solidifying the goals of the experiment, estimating the level of effort, and assigning the resources that will be needed.
+
+**Step 7 – Experimenting with and refining the architecture**
+
+Any experiments that were planned are executed during this step. The results of the experiments are recorded. Based on the results of the experiment, if the architecture needs to be refined, it is done during this step.
+
+After the refinement is complete, the process goes back to Step 4 so that another architectural review can take place.
+
+**Production planning and production**
+
+Once architecture design iterations are complete, and the architecture is ready to move into production, production planning is conducted. Once again, production in the ACDM context refers to using the architecture in implementation.
+
+Given this context, production planning involves planning the design and development of elements, scheduling the work, and assigning tasks to resources. The project management team creates plans for the work, and bases them, in part, on the architecture.
+
+Once the architecture can be moved to production, it can be used by development teams for the detailed design of elements, coding, integration, and testing.
+
 ## <a name="chapter5"></a>Chapter 5: Architectural Styles
 
 #### <a name="chapter5part1"></a>Chapter 5 - Part 1: xxxxxx
