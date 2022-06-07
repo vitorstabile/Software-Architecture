@@ -39,7 +39,11 @@
     - [Chapter 3 - Part 16: Extracting Architecture Quality Attributes from Requirements](#chapter3part16)
 4. [Chapter 4: Software-Architecture Design](#chapter4)
     - [Chapter 4 - Part 1: What to do next?](#chapter4part1)
-    - [Chapter 4 - Part 2: Architecture-Centric Development Approaches](#chapter4part2)
+    - [Chapter 4 - Part 2: Modularity](#chapter4part2)
+    - [Chapter 4 - Part 3: Component Scope](#chapter4part3)
+    - [Chapter 4 - Part 4: Architecture Partitioning](#chapter4part4)
+    - [Chapter 4 - Part 5: Top-down and Bottom-up Design](#chapter4part5)
+    - [Chapter 4 - Part 6: Architecture-Centric Development Approaches](#chapter4part6)
 5. [Chapter 5: Architectural Styles](#chapter5)
     - [Chapter 5 - Part 1: xxxxxx](#chapter5part1)
     - [Chapter 5 - Part 2: yyyyyy](#chapter5part2)
@@ -901,7 +905,144 @@ A quality attribute requirement should be unambiguous and testable. We use a com
 
 Translate ASRs to Architecture decisions.
 
-#### <a name="chapter4part2"></a>Chapter 4 - Part 2: Architecture-Centric Development Approaches
+#### <a name="chapter4part2"></a>Chapter 4 - Part 2: Modularity
+
+Each of a set of standardized parts or independent units that can be used to construct a more complex structure
+
+Modularity is an organizing principle. If an architect designs a system without paying attention to how the pieces wire together, they end up creating a system that presents myriad difficulties. To use a physics analogy, software systems model complex systems, which tend toward entropy (or disorder). Energy must be added to a physical system to preserve order. The same is true for software systems: architects must constantly expend energy to ensure good structural soundness, which won’t happen by accident.
+
+Preserving good modularity exemplifies our definition of an implicit architecture characteristic: virtually no project features a requirement that asks the architect to ensure good modular distinction and communication, yet sustainable code bases require order and consistency.
+
+We use modularity to describe a logical grouping of related code, which could be a group of classes in an object-oriented language or functions in a structured or functional language. Most languages provide mechanisms for modularity (package in Java, namespace in .NET, and so on). Developers typically use modules as a way to group related code together. For example, the com.mycompany.customer package in Java should contain things related to customers.
+
+Architects must be aware of how developers package things because it has important implications in architecture. For example, if several packages are tightly coupled together, reusing one of them for related work becomes more difficult.
+
+For discussions about architecture, we use modularity as a general term to denote a related grouping of code: classes, functions, or any other grouping. This doesn’t imply a physical separation, merely a logical one; the difference is sometimes important. For example, lumping a large number of classes together in a monolithic application may make sense from a convenience standpoint. However, when it comes time to restructure the architecture, the coupling encouraged by loose partitioning becomes an impediment to breaking the monolith apart. Thus, it is useful to talk about modularity as a concept separate from the physical separation forced or implied by a particular platform.
+
+**Cohesion**
+
+Cohesion refers to what extent the parts of a module should be contained within the same module. In other words, it is a measure of how related the parts are to one another. Ideally, a cohesive module is one where all the parts should be packaged together, because breaking them into smaller pieces would require coupling the parts together via calls between modules to achieve useful results.
+
+**Functional cohesion**: Every part of the module is related to the other, and the module contains everything essential to function.
+
+**Sequential cohesion**:Two modules interact, where one outputs data that becomes the input for the other.
+
+**Communicational cohesion**: Two modules form a communication chain, where each operates on information and/or contributes to some output. For example, add a record to the database and generate an email based on that information.
+
+**Procedural cohesion**:Two modules must execute code in a particular order.
+
+**Temporal cohesion**: Modules are related based on timing dependencies. For example, many systems have a list of seemingly unrelated things that must be initialized at system startup; these different tasks are temporally cohesive.
+
+**Logical cohesion**: The data within modules is related logically but not functionally. For example, consider a module that converts information from text, serialized objects, or streams. Operations are related, but the functions are quite different. A common example of this type of cohesion exists in virtually every Java project in the form of the StringUtils package: a group of static methods that operate on String but are otherwise unrelated.
+
+**Coincidental cohesion**:Elements in a module are not related other than being in the same source file; this represents the most negative form of cohesion.
+
+**Measuring modularity**
+
+- Coupling
+   - Afferent
+   - Eferrent
+
+- Abstractness
+   - m^a - abstract elements
+   - m^c - concrete elements
+   - A = sum(m^a) / sum(m^c)
+
+- Instability
+   - c^e - efferent coupling
+   - c^a - afferent coupling
+   - I = c^e / (c^e + c^a)
+
+#### <a name="chapter4part3"></a>Chapter 4 - Part 3: Component Scope
+
+Architects typically think in terms of components, the physical manifestation of a module.
+
+Developers physically package modules in different ways, sometimes depending on their development platform. We call physical packaging of modules components. Most languages support physical packaging as well: jar files in Java, dll in .NET, gem in Ruby, and so on. In this chapter, we discuss architectural considerations around components, ranging from scope to discovery.
+
+As shown, the simplest component wraps code at a higher level of modularity than classes (or functions, in nonobjectoriented languages). This simple wrapper is often called a library, which tends to run in the same memory address as the calling code and communicate via language function call mechanisms. Libraries are usually compile-time dependencies (with notable exceptions like dynamic link libraries [DLLs] that were the bane of Windows users for many years).
+
+Components form the fundamental modular building block in architecture, making them a critical consideration for architects. In fact, one of the primary decisions an architect must make concerns the top-level partitioning of components in the architecture.
+
+<br>
+
+<div align="center"><img src="img/components-w1393-h1021.png" width=605 height=464><br><sub>Fig 15 - Different varieties of components - (<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
+
+#### <a name="chapter4part4"></a>Chapter 4 - Part 4: Architecture Partitioning
+
+The First Law of Software Architecture states that everything in software is a tradeoff, including how architects create components in an architecture. Because components represent a general containership mechanism, an architect can build any type of partitioning they want.
+
+<br>
+
+<div align="center"><img src="img/top-w563-h322.png" width=605 height=464><br><sub>Fig 16 - Two types of top-level partitioning in architecture - (<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
+
+**Technical partitioning**
+
+The architect has partitioned the functionality of the system into **technical** capabilities: presentation, business rules, services, persistence, and so on. This way of organizing a code base certainly makes sense. All the persistence code resides in one layer in the architecture, making it easy for developers to find persistence-related code. Even though the basic concept of layered architecture predates it by decades, the Model-View-Controller design pattern matches with this architectural pattern, making it easy for developers to understand. Thus, it is often the default architecture in many organizations.
+
+Technically partitioned architectures separate top-level components based on technical capabilities rather than discrete workflows. This may manifest as layers inspired by Model-View-Controller separation or some other ad hoc technical partitioning. Figure 8-7 separates components based on customization.
+
+- Advantages
+   - Clearly separates customization code.
+   - Aligns more closely to the layered architecture pattern.
+
+- Disadvantage
+   - Higher degree of global coupling. Changes to either the Common or Local component will likely affect all the other components.
+   - Developers may have to duplicate domain concepts in both common and local layers.
+   - Typically higher coupling at the data level. In a system like this, the application and data architects would likely collaborate to create a single database, including customization and domains. That in turn creates difficulties in untangling the data relationships if the architects later want to migrate this architecture to a distributed system.
+
+**Domain partitioning**
+
+**domain partitioning**, inspired by the Eric Evan book Domain-Driven Design, which is a modeling technique for decomposing complex software systems. In DDD, the architect identifies domains or workflows independent and decoupled from each other. The microservices architecture style (discussed in Chapter 17) is based on this philosophy. In a modular monolith, the architect partitions the architecture around domains or workflows rather than technical capabilities. As components often nest within one another, each of the components in Figure 8-4 in the domain partitioning (for example, Catalog‐ Checkout) may use a persistence library and have a separate layer for business rules, but the top-level partitioning revolves around domains.
+
+Domain-partitioned architectures separate top-level components by workflows and/or domains.
+
+- Advantages
+   - Modeled more closely toward how the business functions rather than an implementation detail
+   - Easier to utilize the Inverse Conway Maneuver to build cross-functional teams around domains
+   - Aligns more closely to the modular monolith and microservices architecture styles
+   - Message flow matches the problem domain
+   - Easy to migrate data and components to distributed architecture
+
+- Disadvantage
+   - Customization code appears in multiple places
+
+#### <a name="chapter4part5"></a>Chapter 4 - Part 5: Top-down and Bottom-up Design
+
+**Top-down**
+
+A top-down approach starts with the entire system at the highest level, and then a process of decomposition begins to work downward toward more detail. The starting point is the highest level of abstraction. As decomposition progresses, the design becomes more detailed, until the component level is reached.
+
+While the detailed design and implementation details of the components are not part of the architecture design, the public interfaces of the components are part of the design. It is the public interfaces that allow us to reason about how components will interact with each other.
+
+A design using the top-down approach is typically performed iteratively, with increasing levels of decomposition. It is particularly effective if the domain is well understood.
+
+This systematic approach has been favored by enterprises since it can handle large and complex projects and because the method of design is planned. A systematic approach to architecture design is attractive to enterprises because it can help with time and budget estimates. However, a strict top-down approach, which requires a lot of upfront architecture design, has become less common in modern software architecture.
+
+<br>
+
+<div align="center"><img src="img/topdown-w2044-h960.png" width=1000 height=500><br><sub>Fig 17 - Top-down - (<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
+
+**Bottom-up**
+
+In contrast with the top-down approach, the bottom-up approach begins with the components that are needed for the solution, and then the design works upward into higher levels of abstraction. Various components can then be used together, like building blocks, to create other components and eventually larger structures. The process continues until all the requirements have been met.
+
+Unlike the top-down approach, which begins with the high-level structure, there is no upfront architecture design with the bottom-up approach. The architecture emerges as more work is completed. Hence, this is sometimes referred to as emergent design or emergent architecture.
+
+The bottom-up approach does not require that the domain be well-understood, as the team only focuses on a small piece at a time. The system grows incrementally as the team learns more about the problem domain as well as the solution
+
+<br>
+
+<div align="center"><img src="img/bottomup-w2048-h670.png" width=1000 height=250><br><sub>Fig 18 - Bottom-up - (<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
+
+#### <a name="chapter4part6"></a>Chapter 4 - Part 6: Architecture-Centric Development Approaches
 
 The architecture-centric design method (ACDM) is an iterative process used to design software architectures. It is a lightweight method with a product focus and seeks to ensure that the software architecture maintains a balance between business and technical concerns. It attempts to make the software architecture the intersection between requirements and the solution.
 
@@ -916,8 +1057,6 @@ Like all architecture design processes, the ACDM provides guidance to software a
 - **Model-driven architecture (MDA)**
    - Generation of (parts of) applications from models, such as UML
    - Domain-specific language (DSL)
-
-
 
 ## <a name="chapter5"></a>Chapter 5: Architectural Styles
 
