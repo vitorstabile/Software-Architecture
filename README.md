@@ -270,6 +270,14 @@ Architectural drivers (or Architecturally Significant Requirements - ASRs) are r
 
 <br>
 
+Architectural drivers consist of coarse-grained or high-level functional requirements, technical constraints, business constraints, and quality attribute requirements. Each of these exerts forces on the architect and influences the early design decisions that the architect makes. However, the impact of each on the design can be radically different, and they are often in tension with one another. **High-level functionality** is an obvious architectural driver and refers to those general requirements for what the system must do. **Technical and business constraints** are fixed premade decisions that are in place before design begins. **Quality attribute requirements** are properties that the system must possess, such as availability, security, high performance, and so forth. Although it may seem counterintuitive, functional requirements have the least influence on design.
+
+<br>
+
+<div align="center"><img src="img/drivers-w756-h750.png" width=756 height=750><br><sub>Fig 13 - The architectural drivers and their influence on system design. - (<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
+
 ## <a name="chapter3"></a>Chapter 3: Quality Attributes
 
 #### <a name="chapter3part1"></a>Chapter 3 - Part 1: xxxxxx
