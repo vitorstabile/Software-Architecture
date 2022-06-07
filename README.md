@@ -699,11 +699,97 @@ A quality attribute requirement should be unambiguous and testable. We use a com
 
 <br>
 
-<div align="center"><img src="img/int7-w2000-h1025.png" width=1500 height=750><br><sub>(<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+<div align="center"><img src="img/perf1-w2000-h1025.png" width=1500 height=750><br><sub>(<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
+
+<div align="center"><img src="img/perf2-w2000-h1025.png" width=1500 height=750><br><sub>(<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
+
+<div align="center"><img src="img/perf3-w2000-h1025.png" width=1500 height=750><br><sub>(<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
+
+<div align="center"><img src="img/perf4-w2000-h1025.png" width=1500 height=750><br><sub>(<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
+
+<div align="center"><img src="img/perf5-w2000-h1025.png" width=1500 height=750><br><sub>(<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
+
+<div align="center"><img src="img/perf6-w2000-h1025.png" width=1500 height=750><br><sub>(<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
 
 #### <a name="chapter3part8"></a>Chapter 3 - Part 7: Safety
 
+<br>
+
+<div align="center"><img src="img/saf1-w2000-h1025.png" width=1500 height=750><br><sub>(<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
+
+<div align="center"><img src="img/saf2-w2000-h1025.png" width=1500 height=750><br><sub>(<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
+
+<div align="center"><img src="img/saf3-w2000-h1025.png" width=1500 height=750><br><sub>(<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
+
+<div align="center"><img src="img/saf4-w2000-h1025.png" width=1500 height=750><br><sub>(<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
+
+<div align="center"><img src="img/saf5-w2000-h1025.png" width=1500 height=750><br><sub>(<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
+
+<div align="center"><img src="img/saf6-w2000-h1025.png" width=1500 height=750><br><sub>(<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
+
+<div align="center"><img src="img/saf7-w2000-h1025.png" width=1500 height=750><br><sub>(<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
+
+<div align="center"><img src="img/saf8-w2000-h1025.png" width=1500 height=750><br><sub>(<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
+
 #### <a name="chapter3part9"></a>Chapter 3 - Part 7: Security
+
+<br>
+
+<div align="center"><img src="img/sec1-w2000-h1025.png" width=1500 height=750><br><sub>(<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
+
+<div align="center"><img src="img/sec2-w2000-h1025.png" width=1500 height=750><br><sub>(<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
+
+<div align="center"><img src="img/sec3-w2000-h1025.png" width=1500 height=750><br><sub>(<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
+
+<div align="center"><img src="img/sec4-w2000-h1025.png" width=1500 height=750><br><sub>(<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
+
+<div align="center"><img src="img/sec5-w2000-h1025.png" width=1500 height=750><br><sub>(<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
+
+<div align="center"><img src="img/sec6-w2000-h1025.png" width=1500 height=750><br><sub>(<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
+
+<div align="center"><img src="img/sec7-w2000-h1025.png" width=1500 height=750><br><sub>(<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
 
 #### <a name="chapter3part10"></a>Chapter 3 - Part 10: Testability
 
