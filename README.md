@@ -335,11 +335,147 @@ Often, the architect has a more reasonable idea
 
 #### <a name="chapter2part7"></a>Chapter 2 - Part 7: Functional Requirements
 
+- Functional requirements explain what the system should do
+
+- At the architectural level, what matters is the high-level functionality and not the details
+
+- As the architecture is refined, more information about the requirements is gathered
+
+High-level functional requirements describe in general terms what a system must do. The term high-level is used here to mean general descriptions of functionality, not the details of what is needed. Consider an air traffic control system. For architectural design, it is important that the system tracks air traffic, records flight plans, and prevents collisions, but the kinds of widgets, the colors of the entities on the displays, and other details are not important for architectural design. Although these are important requirements, they typically have little impact on systemic design choices, and they will be developed in detail as the project progresses.
+
+At the architectural level, what matters is the high-level functionality and not the details.
+
+**Communicating Functional Requirements**
+
+- Descriptions
+- Use cases
+
 #### <a name="chapter2part8"></a>Chapter 2 - Part 8: Business Constraints
+
+**Constraints**
+
+A constraint is a design decision with 0 (zero) degrees of freedom. That is, it is a pre-existing decision.
+
+**Business Constraints**
+
+- Constraints with architectural impact
+- Target market and "time-to-market"
+- Cost and benefit expectations
+- Delivery process (incremental delivery)
+- Expected lifetime of the system
+- Availability of resources and experience
+- Product lines
+
+**Communication of Business constraints**
+
+- Source
+   - Person or artifact that provides the objective
+- Subject
+   - The stakeholder promoting the objective, individual or organizatione
+- Object
+   - Entity to which the objective applies
+- Environment
+   - The context for meeting the goal
+   - Social, legal, competitive, client, technological
+- Objective
+- Description
+- Measure
+   - A testable metric to validate whether the goal has been achieved
+- Pedigree and value
+   - The degree of confidence that the person who defined the goal has in it
+   - The volatility and value of the objective
 
 #### <a name="chapter2part9"></a>Chapter 2 - Part 9: Technical Constraints
 
+**Constraints**
+
+A constraint is a design decision with 0 (zero) degrees of freedom. That is, it is a pre-existing decision.
+
+**Technical Constraints**
+
+- Pre-existing design decisions that shape the architecture
+- Use or integration with legacy systems
+- Technologies, programming languages, protocols, standards, among others.
+- They may have different origins, but all have an impact on architecture
+
+**Communication of technical constraints**
+
+- Rationale
+- Rationale
+- Viable alternatives
+- Origin (stakeholders)
+
 #### <a name="chapter2part10"></a>Chapter 2 - Part 10: Quality Attributes
+
+Quality attributes are characteristics that the system must have in addition to functionality and are also called "Non-Functional Requirements"
+
+- This term is confusing because it is impossible to describe a quality attribute and some constraints without including functionality
+
+Quality attributes are the most difficult architectural drivers to identify, define, and test.
+
+Quality attributes and architectural constraints condition architecture much more than functional requirements
+
+The architecture is fundamental to ensure the fulfillment of quality attributes
+
+Promoting a quality attribute in the architecture can negatively influence the fulfillment of another quality attribute.
+
+Architecture is essential for balancing tradeoffs between quality attributes.
+
+- Availability vs. Performance
+- Performance vs. Security
+- Portability vs extensibility
+
+Most of the time, quality attributes are in "tension" with each other and It is important to prioritize quality attributes. Some qualities of the system have no impact on the architecture, like Usability (Choosing buttons, form elements and etc...)
+
+**Communication of Quality Attributes**
+
+- Quality attributes are difficult to identify and describe
+- Just using the name is not enough
+- Vocabulary varies
+- Descriptions are vague and non-quantifiable
+- Literature definitions are too simple and unhelpful
+- They are often the source of little useful discussions
+
+Ex: "The system must be modifiable"
+
+- Useless ... The system is not always modifiable and does not support any and all changes
+- Each system is modifiable in response to some but not all changes
+- What prevents the modification of a system is cost and time
+
+An efficient way to describe quality attributes is the **Scenarios** that we can Quantify quality attributes, Prioritize scenarios, Make architectural decisions that balance quality attributes and The quantification allows to measure compliance, completeness and success
+
+**Scenarios of quality attributes**
+
+An efficient way to describe quality attributes
+Quantify quality attributes through scenarios
+Prioritize scenarios
+Make architectural decisions that balance quality attributes
+The quantification allows to measure compliance, completeness and success
+
+**Stimulus source**
+   - This is an entity (a human being a computer system, or any other actuator) that generated the stimulus.
+   
+**Stimulus**
+   - Stimulation is a condition that requires an answer when one arrives at a system.
+   
+**Environment**
+   - Stimulation occurs under certain conditions. The system may be in an overload condition or in normal operation, or some other relevant condition. For many systems, the "normal" operation may refer to one of a number of modes.
+   
+**Artifact**
+   - Some artifact is stimulated. This can be a collection of systems, the whole system, or some part or parts of it.
+   
+**Response**
+   - The response is the specific activity as the result of the arrival of the stimulus.
+   
+**Measure the response**
+   - When the response occurs, it must be measured in some way so that the requirement can be tested.
+
+<br>
+
+<div align="center"><img src="img/qualityscenarios-w1017-h693.png" width=1017 height=693><br><sub>Fig 15 - Quality Scenario Example - (<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
+
 
 ## <a name="chapter3"></a>Chapter 3: Quality Attributes
 
