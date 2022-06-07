@@ -253,7 +253,11 @@ The point here is that everything in software architecture has a trade-off: an a
 
 #### <a name="chapter2part4"></a>Chapter 2 - Part 5: The Four Levels of Abstraction
 
-The four levels of abstraction
+<br>
+
+<div align="center"><img src="img/abstraction-w569-h440.png" width=569 height=440><br><sub>Fig 11 - The Four Levels of Abstraction - (<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
 
 ## <a name="chapter3"></a>Chapter 3: Quality Attributes
 
