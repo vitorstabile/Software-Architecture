@@ -10,8 +10,8 @@
     - [Chapter 1 - Part 7: Why is Software-Architecture relevant?](#chapter1part7)
     - [Chapter 1 - Part 8: Laws of Software Architecture](#chapter1part8)
 2. [Chapter 2: Architecturally Significant Requirements](#chapter2)
-    - [Chapter 2 - Part 1: xxxxxx](#chapter2part1)
-    - [Chapter 2 - Part 2: yyyyyy](#chapter2part2)
+    - [Chapter 2 - Part 1: Architectural Thinking](#chapter2part1)
+    - [Chapter 2 - Part 2: Architecture versus Design](#chapter2part2)
 3. [Chapter 3: Quality Attributes](#chapter3)
     - [Chapter 3 - Part 1: xxxxxx](#chapter3part1)
     - [Chapter 3 - Part 2: yyyyyy](#chapter3part2)
@@ -146,9 +146,35 @@ The authors discovered the importance of this perspective when we tried keeping 
 
 ## <a name="chapter2"></a>Chapter 2: Architecturally Significant Requirements
 
-#### <a name="chapter2part1"></a>Chapter 2 - Part 1: xxxxxx
+#### <a name="chapter2part1"></a>Chapter 2 - Part 1: Architectural Thinking
 
-#### <a name="chapter2part2"></a>Chapter 2 - Part 2: yyyyyy
+An architect sees things differently from a developer’s point of view, much in the same way a meteorologist might see clouds differently from an artist’s point of view.
+
+This is called architectural thinking. Unfortunately, too many architects believe that architectural thinking is simply just “thinking about the architecture.”
+
+Architectural thinking is much more than that. It is seeing things with an architectural eye, or an architectural point of view. There are four main aspects of thinking like an architect:
+
+- **First, it’s understanding the difference between architecture and design and knowing how to collaborate with development teams to make architecture work.** 
+
+- **Second, it’s about having a wide breadth of technical knowledge while still maintaining a certain level of technical depth, allowing the architect to see solutions and possibilities that others do not see.** 
+
+- **Third, it’s about understanding, analyzing, and reconciling trade-offs between various solutions and technologies.** 
+
+- **Finally, it’s about understanding the importance of business drivers and how they translate to architectural concerns.**
+
+#### <a name="chapter2part2"></a>Chapter 2 - Part 2: Architecture versus Design
+
+As shown in the diagram, an architect is responsible for things like analyzing business requirements to extract and define the architectural characteristics (“-ilities”), selecting which architecture patterns and styles would fit the problem domain, and creating components (the building blocks of the system). The artifacts created from these activities are then handed off to the development team, which is responsible for creating class diagrams for each component, creating user interface screens, and developing and testing source code.
+
+To make architecture work, both the physical and virtual barriers that exist between architects and developers must be broken down, thus forming a strong bidirectional relationship between architects and development teams. The architect and developer must be on the same virtual team to make this work. Not only does this model facilitate strong bidirectional communication between architecture and development, but it also allows the architect to provide mentoring and coaching to developers on the team.
+
+Unlike the old-school waterfall approaches to static and rigid software architecture, the architecture of today’s systems changes and evolves every iteration or phase of a project. A tight collaboration between the architect and the development team is essential for the success of any software project. So where does architecture end and design begin? It doesn’t. They are both part of the circle of life within a software project and must always be kept in synchronization with each other in order to succeed.
+
+<br>
+
+<div align="center"><img src="img/archvsdesign-w1404-h646.png" width=800 height=500><br><sub>Fig 6 - Architecture Versus Design - (<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
 
 ## <a name="chapter3"></a>Chapter 3: Quality Attributes
 
