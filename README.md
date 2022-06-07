@@ -1,7 +1,7 @@
 # Content
 
 1. [Chapter 1: Software-Architecture](#chapter1)
-    - [Chapter 1 - Part 1: xxxxxx](#chapter1part1)
+    - [Chapter 1 - Part 1: What is Software Architecture](#chapter1part1)
     - [Chapter 1 - Part 2: yyyyyy](#chapter1part2)
 2. [Chapter 2: Architecturally Significant Requirements](#chapter2)
     - [Chapter 2 - Part 1: xxxxxx](#chapter2part1)
@@ -37,11 +37,17 @@
 
 ## <a name="chapter1"></a>Chapter 1: Software-Architecture
 
-#### <a name="chapter1part1"></a>Chapter 1 - Part 1: xxxxxx
+#### <a name="chapter1part1"></a>Chapter 1 - Part 1: What is Software Architecture?
+
+In this definition, software architecture consists of the structure of the system (denoted as the heavy black lines supporting the architecture), combined with architecture characteristics (“-ilities”) the system must support, architecture decisions, and finally design principles.
+
+Architecture consists of the structure combined with architecture characteristics (“-ilities”), architecture decisions, and design principles
+
+The structure of the system refers to the type of architecture style (or styles) the system is implemented in (such as microservices, layered, or microkernel). Describing an architecture solely by the structure does not wholly elucidate an architecture. For example, suppose an architect is asked to describe an architecture, and that architect responds “it’s a microservices architecture.” Here, the architect is only talking about the structure of the system, but not the architecture of the system. Knowledge of the architecture characteristics, architecture decisions, and design principles is also needed to fully understand the architecture of the system.
 
 <br>
 
-<div align="center"><img src="img/adhoc-w415-h168.png" width=415 height=168><br><sub>Fig 1 - Ad Hoc - (<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+<div align="center"><img src="img/systemstructure-w1397-h973.png" width=600 height=400><br><sub>Fig 1 - Structure refers to the type of architecture styles used in the system - (<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
 
 <br>
 
