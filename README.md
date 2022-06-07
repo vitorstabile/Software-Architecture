@@ -128,7 +128,7 @@ There are eight core expectations placed on a software architect, irrespective o
 - By restricting design alternatives, architecture channels the creativity of developers, reducing design and system complexity.
 - Foundation for training of a new team member.
 
-#### <a name="chapter1part7"></a>Chapter 1 - Part 8: Laws of Software Architecture
+#### <a name="chapter1part8"></a>Chapter 1 - Part 8: Laws of Software Architecture
 
 While the scope of software architecture is almost impossibly broad, unifying elements do exist. The authors have first and foremost learned the First Law of Software Architecture by constantly stumbling across it:
 
