@@ -12,6 +12,10 @@
 2. [Chapter 2: Architecturally Significant Requirements](#chapter2)
     - [Chapter 2 - Part 1: Architectural Thinking](#chapter2part1)
     - [Chapter 2 - Part 2: Architecture versus Design](#chapter2part2)
+    - [Chapter 2 - Part 3: Technical Breadth](#chapter2part3)
+    - [Chapter 2 - Part 4: Analyzing Trade-Offs](#chapter2part4)
+    - [Chapter 2 - Part 5: The Four Levels of Abstraction](#chapter2part5)
+The Four Levels of Abstraction
 3. [Chapter 3: Quality Attributes](#chapter3)
     - [Chapter 3 - Part 1: xxxxxx](#chapter3part1)
     - [Chapter 3 - Part 2: yyyyyy](#chapter3part2)
@@ -175,6 +179,32 @@ Unlike the old-school waterfall approaches to static and rigid software architec
 <div align="center"><img src="img/archvsdesign-w1404-h646.png" width=800 height=500><br><sub>Fig 6 - Architecture Versus Design - (<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
 
 <br>
+
+#### <a name="chapter2part3"></a>Chapter 2 - Part 3: Technical Breadth
+
+The scope of technological detail differs between developers and architects. Unlike a developer, who must have a significant amount of technical depth to perform their job, a software architect must have a significant amount of technical breadth to think like an architect and see things with an architecture point of view. This is illustrated by the knowledge pyramid shown above, which encapsulates all the technical knowledge in the world. It turns out that the kind of information a technologist should value differs with career stages. any individual can partition all their knowledge into three sections: stuff you know, stuff you know you don’t know, and stuff you don’t know you don’t know.
+
+**Stuff you know**: includes the technologies, frameworks, languages, and tools a technologist uses on a daily basis to perform their job, such as knowing Java as a Java programmer. 
+
+**Stuff you know you don’t know**: includes those things a technologist knows a little about or has heard of but has little or no expertise in. A good example of this level of knowledge is the Clojure programming language. Most technologists have heard of Clojure and know it’s a programming language based on Lisp, but they can’t code in the language. 
+
+**Stuff you don’t know you don’t know**: is the largest part of the knowledge triangle and includes the entire host of technologies, tools, frameworks, and languages that would be the perfect solution to a problem a technologist is trying to solve, but the technologist doesn’t even know those things exist.
+
+However, the nature of knowledge changes as developers transition into the architect role. A large part of the value of an architect is a broad understanding of technology and how to use it to solve particular problems. For example, as an architect, it is more beneficial to know that five solutions exist for a particular problem than to have singular expertise in only one. The most important parts of the pyramid for architects are the top and middle sections; how far the middle section penetrates into the bottom section represents an architect’s technical breadth
+
+Architects should focus on technical breadth so that they have a larger quiver from which to draw arrows. Developers transitioning to the architect role may have to change the way they view knowledge acquisition. Balancing their portfolio of knowledge regarding depth versus breadth is something every developer should consider throughout their career.
+
+<br>
+
+<div align="center"><img src="img/techbreadth-w1278-h1079.png" width=800 height=700><br><sub>Fig 7 - Technical Breadth - (<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
+
+#### <a name="chapter2part4"></a>Chapter 2 - Part 4: Analyzing Trade-Offs
+
+#### <a name="chapter2part4"></a>Chapter 2 - Part 5: The Four Levels of Abstraction
+
+The four levels of abstraction
 
 ## <a name="chapter3"></a>Chapter 3: Quality Attributes
 
