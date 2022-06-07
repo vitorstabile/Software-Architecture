@@ -533,6 +533,32 @@ A quality attribute requirement should be unambiguous and testable. We use a com
 
 #### <a name="chapter3part2"></a>Chapter 3 - Part 2: Availability
 
+<br>
+
+<div align="center"><img src="img/aval1-w1500-h750.png" width=1500 height=750><br><sub>(<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
+
+<div align="center"><img src="img/aval2-w1500-h750.png" width=1500 height=750><br><sub>(<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
+
+<div align="center"><img src="img/aval3-w1500-h750.png" width=1500 height=750><br><sub>(<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
+
+<div align="center"><img src="img/aval4-w1500-h750.png" width=1500 height=750><br><sub>(<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
+
+<div align="center"><img src="img/aval5-w1500-h750.png" width=1500 height=750><br><sub>(<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
+
+<div align="center"><img src="img/aval6-w1500-h750.png" width=1500 height=750><br><sub>(<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
+
 #### <a name="chapter3part3"></a>Chapter 3 - Part 3: Deployability
 
 #### <a name="chapter3part4"></a>Chapter 3 - Part 4: Energy Efficiency
