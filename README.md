@@ -39,6 +39,12 @@
 
 #### <a name="chapter1part1"></a>Chapter 1 - Part 1: xxxxxx
 
+<br>
+
+<div align="center"><img src="img/adhoc-w415-h168.png" width=415 height=168><br><sub>Fig 1 - Ad Hoc - (<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
+
 #### <a name="chapter1part2"></a>Chapter 1 - Part 2: yyyyyy
 
 ## <a name="chapter2"></a>Chapter 2: Architecturally Significant Requirements
