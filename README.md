@@ -853,13 +853,47 @@ A quality attribute requirement should be unambiguous and testable. We use a com
 
 #### <a name="chapter3part12"></a>Chapter 3 - Part 12: Operational Architecture Quality Attributes
 
+<br>
+
+<div align="center"><img src="img/opequal-w2000-h1025.png" width=1500 height=750><br><sub>(<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
+
 #### <a name="chapter3part13"></a>Chapter 3 - Part 13: Structural Architecture Quality Attributes
+
+<br>
+
+<div align="center"><img src="img/struqual-w2000-h1025.png" width=1500 height=750><br><sub>(<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
 
 #### <a name="chapter3part14"></a>Chapter 3 - Part 14: Cross-cutting Architecture Quality Attributes
 
+<br>
+
+<div align="center"><img src="img/crossqual1-w2000-h1025.png" width=1500 height=750><br><sub>(<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
+
+<div align="center"><img src="img/crossqual2-w2000-h1025.png" width=1500 height=750><br><sub>(<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
+
 #### <a name="chapter3part15"></a>Chapter 3 - Part 15: Finding Architecture Quality Attributes in the Business Constraints
 
+<br>
+
+<div align="center"><img src="img/findqual-w2000-h1025.png" width=1500 height=750><br><sub>(<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
+
 #### <a name="chapter3part16"></a>Chapter 3 - Part 16: Extracting Architecture Quality Attributes from Requirements
+
+<br>
+
+<div align="center"><img src="img/extra-w2000-h1025.png" width=1500 height=750><br><sub>(<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
 
 ## <a name="chapter4"></a>Chapter 4: Software-Architecture Design
 
