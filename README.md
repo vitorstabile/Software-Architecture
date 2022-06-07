@@ -5,7 +5,8 @@
     - [Chapter 1 - Part 2: Structure](#chapter1part2)
     - [Chapter 1 - Part 3: Architecture Characteristics](#chapter1part3)
     - [Chapter 1 - Part 4: Architecture Decisions](#chapter1part4)
-    - [Chapter 1 - Part 5: Design Principles](#chapter1part4)
+    - [Chapter 1 - Part 5: Design Principles](#chapter1part5)
+    - [Chapter 1 - Part 6: Who is the Software Architect?](#chapter1part6)
 2. [Chapter 2: Architecturally Significant Requirements](#chapter2)
     - [Chapter 2 - Part 1: xxxxxx](#chapter2part1)
     - [Chapter 2 - Part 2: yyyyyy](#chapter2part2)
@@ -87,6 +88,26 @@ The last factor in the definition of architecture is design principles. A design
 <div align="center"><img src="img/designprinciples-w1397-h973.png" width=600 height=400><br><sub>Fig 4 - Design principles are guidelines for constructing systems - (<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
 
 <br>
+
+#### <a name="chapter1part6"></a>Chapter 1 - Part 6: Who is the Software Architect?
+
+There are eight core expectations placed on a software architect, irrespective of any given role, title, or job description:
+
+- Make architecture decisions
+- Continually analyze the architecture
+- Keep current with latest trends
+- Ensure compliance with decisions
+- Diverse exposure and experience
+- Have business domain knowledge
+- Possess interpersonal skills
+- Understand and navigate politics
+
+<br>
+
+<div align="center"><img src="img/softwarearchitecturerole-w800-h600.png" width=800 height=600><br><sub>Fig 5 - Software Architecture Role - (<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
+
 
 ## <a name="chapter2"></a>Chapter 2: Architecturally Significant Requirements
 
