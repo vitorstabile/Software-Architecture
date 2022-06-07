@@ -15,7 +15,6 @@
     - [Chapter 2 - Part 3: Technical Breadth](#chapter2part3)
     - [Chapter 2 - Part 4: Analyzing Trade-Offs](#chapter2part4)
     - [Chapter 2 - Part 5: The Four Levels of Abstraction](#chapter2part5)
-The Four Levels of Abstraction
 3. [Chapter 3: Quality Attributes](#chapter3)
     - [Chapter 3 - Part 1: xxxxxx](#chapter3part1)
     - [Chapter 3 - Part 2: yyyyyy](#chapter3part2)
