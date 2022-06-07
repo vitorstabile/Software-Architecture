@@ -1048,7 +1048,6 @@ The architecture-centric design method (ACDM) is an iterative process used to de
 
 Like all architecture design processes, the ACDM provides guidance to software architects as they design an architecture. While it covers the complete life cycle of software architecture, it is not a complete development process. It is designed to fit in with existing process frameworks though so that it can be used in conjunction with other methods to cover activities outside of architecture. It does not have to replace an existing process framework and can complement it instead.
 
-
 - **Domain-driven design (DDD)**
    - structure large systems by functional domains
    - each system forms a separate unit
@@ -1057,6 +1056,18 @@ Like all architecture design processes, the ACDM provides guidance to software a
 - **Model-driven architecture (MDA)**
    - Generation of (parts of) applications from models, such as UML
    - Domain-specific language (DSL)
+
+There are some minor variations in the number and naming of the steps involved with the ACDM, but the process is essentially the same. Let's go over the ACDM, which is a sevenstep process:
+
+<br>
+
+<div align="center"><img src="img/acdm-w581-h906.png" width=581 height=906><br><sub>Fig 19 - ACDM Process - (<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
+
+<div align="center"><img src="img/acdm2-w793-h619.png" width=793 height=619><br><sub>Fig 20 - ACDM Process - (<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
 
 ## <a name="chapter5"></a>Chapter 5: Architectural Styles
 
