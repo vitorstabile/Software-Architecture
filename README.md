@@ -243,11 +243,13 @@ Another disadvantage of the topic model illustrated in Figure 9 is that it does 
 
 Given this trade-off analysis, now which is the better option? And the answer? It depends!
 
+
     | Topic advantages             | Topic disadvantages                       |
     |:-----------------------------|:------------------------------------------|
     | Architectural extensibility  | Data access and data security concerns    |
     | Service decoupling           | No heterogeneous contracts                |
     |                              | Monitoring and programmatic scalability   |
+    
 
 
 The point here is that everything in software architecture has a trade-off: an advantage and disadvantage. Thinking like an architect is analyzing these trade-offs, then asking “which is more important: extensibility or security?” The decision between different solutions will always depend on the business drivers, environment, and a host of other factors.
