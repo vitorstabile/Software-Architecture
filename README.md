@@ -1087,9 +1087,23 @@ Using the architectural drivers, a notional architecture is created. It is the f
 
 Not a lot of time is typically spent on the notional architecture. The idea is that the architecture will be refined through multiple iterations until it is complete.
 
+ACDM suggests the deliverable:
+- Context
+- Physical, static and dynamic perspectives
+- Specification of all interfaces
+- Management perspective
+
 **Step 4 – Architectural review**
 
 During this step, a review is conducted on the architecture as it currently exists. Reviews may be conducted internally, externally with stakeholders, or there may even be multiple review sessions so that both internal and external ones can be conducted.
+
+- Review architecture in Architecture Design Evaluation Workshop - ADEW
+
+<br>
+
+<div align="center"><img src="img/acdm3-w1033-h484.png" width=1033 height=484><br><sub>Fig 21 - ACDM Stage 4 - (<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
 
 The purpose of the review is to ensure that all of the design decisions are correct and to uncover any potential issues or problems with the architecture. For a given design decision, alternative approaches can be discussed, along with the trade-offs and the rationale behind the decision, in order to determine whether the best alternative was taken.
 
@@ -1106,6 +1120,12 @@ If the production decision is a go, and no further refinements are needed, the p
 In this step, any experiments that the team feels are necessary are planned. The purpose of an experiment may be to resolve an issue uncovered during the architectural review, to gain a greater understanding of one or more architectural drivers, or to improve elements and modules of the design before they are committed to the overall architecture.
 
 Experiment planning includes solidifying the goals of the experiment, estimating the level of effort, and assigning the resources that will be needed.
+
+<br>
+
+<div align="center"><img src="img/acdm4-w1164-h385.png" width=1164 height=385><br><sub>Fig 22 - ACDM Stage 6 - (<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
 
 **Step 7 – Experimenting with and refining the architecture**
 
