@@ -16,6 +16,10 @@
     - [Chapter 2 - Part 4: Analyzing Trade-Offs](#chapter2part4)
     - [Chapter 2 - Part 5: The Four Levels of Abstraction](#chapter2part5)
     - [Chapter 2 - Part 6: Architectural Drivers](#chapter2part6)
+    - [Chapter 2 - Part 7: Functional Requirements](#chapter2part7)
+    - [Chapter 2 - Part 8: Business Constraints](#chapter2part8)
+    - [Chapter 2 - Part 9: Technical Constraints](#chapter2part9)
+    - [Chapter 2 - Part 10: Quality Attributes](#chapter2part10)
 3. [Chapter 3: Quality Attributes](#chapter3)
     - [Chapter 3 - Part 1: xxxxxx](#chapter3part1)
     - [Chapter 3 - Part 2: yyyyyy](#chapter3part2)
@@ -277,6 +281,65 @@ Architectural drivers consist of coarse-grained or high-level functional require
 <div align="center"><img src="img/drivers-w756-h750.png" width=756 height=750><br><sub>Fig 13 - The architectural drivers and their influence on system design. - (<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
 
 <br>
+
+**Were to find these requirements?**
+
+They are not always found in the "requirements document"!
+
+- Many projects do not create or maintain detailed, high-quality documents
+- More attention is paid to functional requirements
+- Most requirements do not affect the architecture
+- Can not wait for requirements to be ready
+
+**When captured, quality attributes are often poorly captured**
+
+- "The system must be modular"
+- "The system must have good usability"
+- "The system must meet the performance requirements"
+
+**Much of what is important to the architect is not even in the rest**
+
+- ASRs often derive from business objectives
+- Qualities of the development team
+
+<br>
+
+<div align="center"><img src="img/asrs-w540-h486.png" width=540 height=486><br><sub>Fig 14 - Looking for ASRs. - (<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
+
+**Collect ASRs from stakeholders**
+
+Stakeholders do not know what quality attributes they want in the system
+
+- Insisting on quantitative AQs can result in arbitrary values
+
+Some of these requirements may be difficult to meet
+
+Often, the architect has a more reasonable idea
+
+**Interviewing stakeholders is the best way to determine what they know and what they need**
+
+**The outcome of the stakeholder interviews should include**:
+
+- A list of architectural drivers
+- A list of quality attributes scenarios that stakeholders as a whole prioritized
+
+**The information can be used to:**
+
+- Refine the system and software requirements
+- Understand and clarify architectural drivers
+- Provide the rationale for design decisions
+- Guide the development of prototypes and simulations
+- Influence the order in which the architecture is developed
+
+#### <a name="chapter2part7"></a>Chapter 2 - Part 7: Functional Requirements
+
+#### <a name="chapter2part8"></a>Chapter 2 - Part 8: Business Constraints
+
+#### <a name="chapter2part9"></a>Chapter 2 - Part 9: Technical Constraints
+
+#### <a name="chapter2part10"></a>Chapter 2 - Part 10: Quality Attributes
 
 ## <a name="chapter3"></a>Chapter 3: Quality Attributes
 
