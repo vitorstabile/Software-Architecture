@@ -38,8 +38,8 @@
     - [Chapter 3 - Part 15: Finding Architecture Quality Attributes in the Business Constraints](#chapter3part15)
     - [Chapter 3 - Part 16: Extracting Architecture Quality Attributes from Requirements](#chapter3part16)
 4. [Chapter 4: Software-Architecture Design](#chapter4)
-    - [Chapter 4 - Part 1: xxxxxx](#chapter4part1)
-    - [Chapter 4 - Part 2: yyyyyy](#chapter4part2)
+    - [Chapter 4 - Part 1: What to do next?](#chapter4part1)
+    - [Chapter 4 - Part 2: Architecture-Centric Development Approaches](#chapter4part2)
 5. [Chapter 5: Architectural Styles](#chapter5)
     - [Chapter 5 - Part 1: xxxxxx](#chapter5part1)
     - [Chapter 5 - Part 2: yyyyyy](#chapter5part2)
@@ -897,9 +897,27 @@ A quality attribute requirement should be unambiguous and testable. We use a com
 
 ## <a name="chapter4"></a>Chapter 4: Software-Architecture Design
 
-#### <a name="chapter4part1"></a>Chapter 4 - Part 1: xxxxxx
+#### <a name="chapter4part1"></a>Chapter 4 - Part 1: What to do next?
 
-#### <a name="chapter4part2"></a>Chapter 4 - Part 2: yyyyyy
+Translate ASRs to Architecture decisions.
+
+#### <a name="chapter4part2"></a>Chapter 4 - Part 2: Architecture-Centric Development Approaches
+
+The architecture-centric design method (ACDM) is an iterative process used to design software architectures. It is a lightweight method with a product focus and seeks to ensure that the software architecture maintains a balance between business and technical concerns. It attempts to make the software architecture the intersection between requirements and the solution.
+
+Like all architecture design processes, the ACDM provides guidance to software architects as they design an architecture. While it covers the complete life cycle of software architecture, it is not a complete development process. It is designed to fit in with existing process frameworks though so that it can be used in conjunction with other methods to cover activities outside of architecture. It does not have to replace an existing process framework and can complement it instead.
+
+
+- **Domain-driven design (DDD)**
+   - structure large systems by functional domains
+   - each system forms a separate unit
+   - better understanding of microservices
+
+- **Model-driven architecture (MDA)**
+   - Generation of (parts of) applications from models, such as UML
+   - Domain-specific language (DSL)
+
+
 
 ## <a name="chapter5"></a>Chapter 5: Architectural Styles
 
