@@ -21,7 +21,7 @@
     - [Chapter 2 - Part 9: Technical Constraints](#chapter2part9)
     - [Chapter 2 - Part 10: Quality Attributes](#chapter2part10)
 3. [Chapter 3: Quality Attributes](#chapter3)
-    - [Chapter 3 - Part 1: xxxxxx](#chapter3part1)
+    - [Chapter 3 - Part 1: What is the Quality Attribute of a Software?](#chapter3part1)
     - [Chapter 3 - Part 2: yyyyyy](#chapter3part2)
 4. [Chapter 4: Software-Architecture Design](#chapter4)
     - [Chapter 4 - Part 1: xxxxxx](#chapter4part1)
@@ -479,7 +479,43 @@ The quantification allows to measure compliance, completeness and success
 
 ## <a name="chapter3"></a>Chapter 3: Quality Attributes
 
-#### <a name="chapter3part1"></a>Chapter 3 - Part 1: xxxxxx
+#### <a name="chapter3part1"></a>Chapter 3 - Part 1: What is the Quality Attribute of a Software?
+
+We have been using the term “quality attribute” loosely, but now it is time to define it more carefully. A quality attribute (QA) is a measurable or testable property of a system that is used to indicate how well the system satisfies the needs of its stakeholders. You can think of a quality attribute as measuring the “goodness” of a product along some dimension of interest to a stakeholder.
+
+A quality attribute requirement should be unambiguous and testable. We use a common form to specify all quality attribute requirements. This has the advantage of emphasizing the commonalities among all quality attributes. It has the disadvantage of occasionally being a force-fit for some aspects of quality attributes
+
+**Stimulus**: We use the term “stimulus” to describe an event arriving at the system. The stimulus can be an event to the performance community, a user operation to the usability community, or an attack to the security community. We use the same term to describe a motivating action for developmental qualities. Thus, a stimulus for modifiability is a request for a modification; a stimulus for testability is the completion of a phase of development.
+
+**Stimulus source**: A stimulus must have a source—it must come from somewhere. The source of the stimulus may affect how it is treated by the system. A request from a trusted user will not undergo the same scrutiny as a request by an untrusted user.
+
+**Response**: How the system should respond to the stimulus must also be specified. The response consists of the responsibilities that the system (for runtime qualities) or the developers (for development-time qualities) should perform in response to the stimulus. For example, in a performance scenario, an event arrives (the stimulus) and the system should process that event and generate a response. In a modifiability scenario, a request for a modification arrives (the stimulus) and the developers should implement the modification—without side effects—and then test and deploy the modification.
+
+**Response measure**: Determining whether a response is satisfactory— whether the requirement is satisfied—is enabled by providing a response measure. For performance this could be a measure of latency or throughput; for modifiability it could be the labor or wall clock time required to make, test, and deploy the modification.
+
+**Environment**: The environment of a requirement is the set of circumstances in which the scenario takes place. The environment acts as a qualifier on the stimulus. For example, a request for a modification that arrives after the code has been frozen for a release may be treated differently than one that arrives before the freeze. A failure that is the fifth successive failure of a component may be treated differently than the first failure of that component.
+
+**Artifact**: Finally, the artifact is the portion of the system to which the requirement applies. Frequently this is the entire system, but occasionally specific portions of the system may be called out. A failure in a data store may be treated differently than a failure in the metadata store. Modifications to the user interface may have faster response times than modifications to the middleware.
+
+**summary**
+
+**Source of stimulus**: This is some entity (a human, a computer system, or any other actuator) that generated the stimulus.
+
+**Stimulus**: The stimulus is a condition that requires a response when it arrives at a system.
+
+**Environment**: The stimulus occurs under certain conditions. The system may be in an overload condition or in normal operation, or some other relevant state. For many systems, “normal” operation can refer to one of a number of modes. For these kinds of systems, the environment should specify in which mode the system is executing.
+
+**Artifact**: Some artifact is stimulated. This may be a collection of systems, the whole system, or some piece or pieces of it.
+
+**Response**: The response is the activity undertaken as the result of the arrival of the stimulus.
+
+**Response measure**: When the response occurs, it should be measurable in some fashion so that the requirement can be tested.
+
+<br>
+
+<div align="center"><img src="img/quality-w943-h550.png" width=943 height=550><br><sub>Fig 16 - System Software Product Quality - (<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
 
 #### <a name="chapter3part2"></a>Chapter 3 - Part 2: yyyyyy
 
