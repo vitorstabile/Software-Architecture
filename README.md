@@ -661,9 +661,45 @@ A quality attribute requirement should be unambiguous and testable. We use a com
 
 #### <a name="chapter3part6"></a>Chapter 3 - Part 6: Modifiability
 
+<br>
 
+<div align="center"><img src="img/mod1-w2000-h1025.png" width=1500 height=750><br><sub>(<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
+
+<div align="center"><img src="img/mod2-w2000-h1025.png" width=1500 height=750><br><sub>(<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
+
+<div align="center"><img src="img/mod3-w2000-h1025.png" width=1500 height=750><br><sub>(<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
+
+<div align="center"><img src="img/mod4-w2000-h1025.png" width=1500 height=750><br><sub>(<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
+
+<div align="center"><img src="img/mod5-w2000-h1025.png" width=1500 height=750><br><sub>(<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
+
+<div align="center"><img src="img/mod6-w2000-h1025.png" width=1500 height=750><br><sub>(<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
+
+<div align="center"><img src="img/mod7-w2000-h1025.png" width=1500 height=750><br><sub>(<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
+
+<div align="center"><img src="img/mod8-w2000-h1025.png" width=1500 height=750><br><sub>(<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
 
 #### <a name="chapter3part7"></a>Chapter 3 - Part 7: Performance
+
+<br>
+
+<div align="center"><img src="img/int7-w2000-h1025.png" width=1500 height=750><br><sub>(<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
 
 #### <a name="chapter3part8"></a>Chapter 3 - Part 7: Safety
 
