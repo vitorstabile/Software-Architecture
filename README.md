@@ -15,6 +15,7 @@
     - [Chapter 2 - Part 3: Technical Breadth](#chapter2part3)
     - [Chapter 2 - Part 4: Analyzing Trade-Offs](#chapter2part4)
     - [Chapter 2 - Part 5: The Four Levels of Abstraction](#chapter2part5)
+    - [Chapter 2 - Part 6: Architectural Drivers](#chapter2part6)
 3. [Chapter 3: Quality Attributes](#chapter3)
     - [Chapter 3 - Part 1: xxxxxx](#chapter3part1)
     - [Chapter 3 - Part 2: yyyyyy](#chapter3part2)
@@ -256,6 +257,16 @@ The point here is that everything in software architecture has a trade-off: an a
 <br>
 
 <div align="center"><img src="img/abstraction-w569-h440.png" width=569 height=440><br><sub>Fig 11 - The Four Levels of Abstraction - (<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
+
+#### <a name="chapter2part6"></a>Chapter 2 - Part 6: Architectural Drivers
+
+Architectural drivers (or Architecturally Significant Requirements - ASRs) are requirements that shape the architecture and include:
+
+<br>
+
+<div align="center"><img src="img/asrs-w540-h486.png" width=540 height=486><br><sub>Fig 12 - Architecturally Significant Requirements - (<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
 
 <br>
 
