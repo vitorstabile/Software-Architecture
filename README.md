@@ -22,7 +22,21 @@
     - [Chapter 2 - Part 10: Quality Attributes](#chapter2part10)
 3. [Chapter 3: Quality Attributes](#chapter3)
     - [Chapter 3 - Part 1: What is the Quality Attribute of a Software?](#chapter3part1)
-    - [Chapter 3 - Part 2: yyyyyy](#chapter3part2)
+    - [Chapter 3 - Part 2: Availability](#chapter3part2)
+    - [Chapter 3 - Part 3: Deployability](#chapter3part3)
+    - [Chapter 3 - Part 4: Energy Efficiency](#chapter3part4)
+    - [Chapter 3 - Part 5: Integrability](#chapter3part5)
+    - [Chapter 3 - Part 6: Modifiability](#chapter3part6)
+    - [Chapter 3 - Part 7: Performance](#chapter3part7)
+    - [Chapter 3 - Part 8: Safety](#chapter3part8)
+    - [Chapter 3 - Part 9: Security](#chapter3part9)
+    - [Chapter 3 - Part 10: Testability](#chapter3part10)
+    - [Chapter 3 - Part 11: Usability](#chapter3part11)
+    - [Chapter 3 - Part 12: Operational Architecture Quality Attributes](#chapter3part12)
+    - [Chapter 3 - Part 13: Structural Architecture Quality Attributes](#chapter3part13)
+    - [Chapter 3 - Part 14: Cross-cutting Architecture Quality Attributes](#chapter3part14)
+    - [Chapter 3 - Part 15: Finding Architecture Quality Attributes in the Business Constraints](#chapter3part15)
+    - [Chapter 3 - Part 16: Extracting Architecture Quality Attributes from Requirements](#chapter3part16)
 4. [Chapter 4: Software-Architecture Design](#chapter4)
     - [Chapter 4 - Part 1: xxxxxx](#chapter4part1)
     - [Chapter 4 - Part 2: yyyyyy](#chapter4part2)
@@ -517,7 +531,35 @@ A quality attribute requirement should be unambiguous and testable. We use a com
 
 <br>
 
-#### <a name="chapter3part2"></a>Chapter 3 - Part 2: yyyyyy
+#### <a name="chapter3part2"></a>Chapter 3 - Part 2: Availability
+
+#### <a name="chapter3part3"></a>Chapter 3 - Part 3: Deployability
+
+#### <a name="chapter3part4"></a>Chapter 3 - Part 4: Energy Efficiency
+
+#### <a name="chapter3part5"></a>Chapter 3 - Part 5: Integrability
+
+#### <a name="chapter3part6"></a>Chapter 3 - Part 6: Modifiability
+
+#### <a name="chapter3part7"></a>Chapter 3 - Part 7: Performance
+
+#### <a name="chapter3part8"></a>Chapter 3 - Part 7: Safety
+
+#### <a name="chapter3part9"></a>Chapter 3 - Part 7: Security
+
+#### <a name="chapter3part10"></a>Chapter 3 - Part 10: Testability
+
+#### <a name="chapter3part11"></a>Chapter 3 - Part 11: Usability
+
+#### <a name="chapter3part12"></a>Chapter 3 - Part 12: Operational Architecture Quality Attributes
+
+#### <a name="chapter3part13"></a>Chapter 3 - Part 13: Structural Architecture Quality Attributes
+
+#### <a name="chapter3part14"></a>Chapter 3 - Part 14: Cross-cutting Architecture Quality Attributes
+
+#### <a name="chapter3part15"></a>Chapter 3 - Part 15: Finding Architecture Quality Attributes in the Business Constraints
+
+#### <a name="chapter3part16"></a>Chapter 3 - Part 16: Extracting Architecture Quality Attributes from Requirements
 
 ## <a name="chapter4"></a>Chapter 4: Software-Architecture Design
 
