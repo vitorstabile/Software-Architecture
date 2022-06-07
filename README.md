@@ -304,7 +304,7 @@ They are not always found in the "requirements document"!
 
 <br>
 
-<div align="center"><img src="img/asrs-w540-h486.png" width=540 height=486><br><sub>Fig 14 - Looking for ASRs. - (<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+<div align="center"><img src="img/lookasrs-w605-h464.png" width=605 height=464><br><sub>Fig 14 - Looking for ASRs. - (<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
 
 <br>
 
