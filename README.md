@@ -7,6 +7,8 @@
     - [Chapter 1 - Part 4: Architecture Decisions](#chapter1part4)
     - [Chapter 1 - Part 5: Design Principles](#chapter1part5)
     - [Chapter 1 - Part 6: Who is the Software Architect?](#chapter1part6)
+    - [Chapter 1 - Part 7: Why is Software-Architecture relevant?](#chapter1part7)
+    - [Chapter 1 - Part 8: Laws of Software Architecture](#chapter1part8)
 2. [Chapter 2: Architecturally Significant Requirements](#chapter2)
     - [Chapter 2 - Part 1: xxxxxx](#chapter2part1)
     - [Chapter 2 - Part 2: yyyyyy](#chapter2part2)
@@ -42,6 +44,8 @@
 ## <a name="chapter1"></a>Chapter 1: Software-Architecture
 
 #### <a name="chapter1part1"></a>Chapter 1 - Part 1: What is Software Architecture?
+
+**Architecture is nota a phase of projects**
 
 In this definition, software architecture consists of the structure of the system (denoted as the heavy black lines supporting the architecture), combined with architecture characteristics (“-ilities”) the system must support, architecture decisions, and finally design principles.
 
@@ -108,6 +112,37 @@ There are eight core expectations placed on a software architect, irrespective o
 
 <br>
 
+#### <a name="chapter1part7"></a>Chapter 1 - Part 7: Why is Software-Architecture relevant?
+
+- Inhibit or enable a system’s driving quality attributes.
+- Reason about and manage change as the system evolves.
+- Early prediction of a system’s qualities.
+- Enhances communication among stakeholders.
+- Carrier of the earliest, and hence most-fundamental, hardest-to-change design decisions.
+- Defines a set of constraints on subsequent implementation.
+- Dictates the structure of an organization, or vice versa.
+- Provide the basis for incremental development.
+- Key artifact that allows the architect and the project manager to reason about cost and schedule.
+- Can be created as a transferable, reusable model that forms the heart of a product line.
+- Focuses attention on the assembly of components, rather than simply on their creation.
+- By restricting design alternatives, architecture channels the creativity of developers, reducing design and system complexity.
+- Foundation for training of a new team member.
+
+#### <a name="chapter1part7"></a>Chapter 1 - Part 8: Laws of Software Architecture
+
+While the scope of software architecture is almost impossibly broad, unifying elements do exist. The authors have first and foremost learned the First Law of Software Architecture by constantly stumbling across it:
+
+**Everything in software architecture is a trade-off.** —First Law of Software Architecture
+
+Nothing exists on a nice, clean spectrum for software architects. Every decision must take into account many opposing factors.
+
+**If an architect thinks they have discovered something that isn’t a trade-off, more likely they just haven’t identified the trade-off yet.** —Corollary 1
+
+We define software architecture in terms beyond structural scaffolding, incorporating principles, characteristics, and so on. Architecture is broader than just the combination of structural elements, reflected in our Second Law of Software Architecture:
+
+**Why is more important than how.** —Second Law of Software Architecture
+
+The authors discovered the importance of this perspective when we tried keeping the results of exercises done by students during workshop as they crafted architecture solutions. Because the exercises were timed, the only artifacts we kept were the diagrams representing the topology. In other words, we captured how they solved the problem but not why the team made particular choices. An architect can look at an existing system they have no knowledge of and ascertain how the structure of the architecture works, but will struggle explaining why certain choices were made versus others.
 
 ## <a name="chapter2"></a>Chapter 2: Architecturally Significant Requirements
 
