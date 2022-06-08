@@ -1155,9 +1155,105 @@ Once the architecture can be moved to production, it can be used by development 
 
 ## <a name="chapter7"></a>Chapter 7: Software Architectures and Quality
 
-#### <a name="chapter7part1"></a>Chapter 7 - Part 1: xxxxxx
+#### <a name="chapter7part1"></a>Chapter 7 - Part 1: Definition
 
-#### <a name="chapter7part2"></a>Chapter 7 - Part 2: yyyyyy
+Architectural analysis is the activity of discovering important properties of a system using architectural models
+
+Evaluates the quality of the software in terms of known requirements
+
+<br>
+
+<div align="center"><img src="img/eval1-w369-h227.png" width=369 height=227><br><sub>Fig 23 - Architectural analysis - (<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
+
+#### <a name="chapter7part2"></a>Chapter 7 - Part 2: Why analyze an architecture?
+
+- All architectures involve trade offs
+
+- Architecture is the first artifact in the life cycle of a project that contains significant design decisions
+
+- The cost of analyzing an architecture is low and justifiable in terms of the time, cost, and consequence of an error in a highly complex software project
+
+#### <a name="chapter7part3"></a>Chapter 7 - Part 3: Objectives of the analysis
+
+- The 4 C's
+   - Completeness
+   - Consistency
+      - Inconsistency of names
+      - Inconsistency of interface
+      - Behavioral inconsistency
+      - Inconsistency of interaction
+      - Inconsistency of refinement
+   - Compatibility
+   - Correction
+
+#### <a name="chapter7part4"></a>Chapter 7 - Part 4: Methods for Ensuring the Quality of SA
+
+- Architecture analysis
+- Code and architecture reviews
+- Data and process analysis
+- Tests
+   - Performance tests
+   - Load tests
+   - Stress tests
+
+#### <a name="chapter7part5"></a>Chapter 7 - Part 5: What can be evaluated on a software project?
+
+- Processes
+   - development or operating processes
+
+- Artifacts
+   - requirements
+   - source code
+   - other documents
+
+- Artifacts can be evaluated **quantitatively** or **qualitatively**
+
+#### <a name="chapter7part6"></a>Chapter 7 - Part 6: Quantitative analysis
+
+Metrics for measurement and evaluation of architectural aspects
+   
+   - Incoming/outgoing dependencies
+      - Recall:
+         - Abstractness, Instability, and distance from the main sequence
+      - Cyclomatic complexity (Thomas J. McCabe, 1976)
+
+    - Analysis that focuses in process
+      - Change frequencies
+      
+    - Correct implementation of the architecture
+      - Static analysis tools
+      
+    - Other metrics
+      - number of test cases, test cases per requirement, errors per package, changed requirements, etc
+
+#### <a name="chapter7part7"></a>Chapter 7 - Part 7: Qualitative evaluation
+
+Focused on analysing:
+    - requirements
+    - utility trees
+    - scenarios
+    - architecture and design models
+    - source code
+    - metrics
+    
+ **DIN ISO/IEC 25010 [ISO/IEC 9126]**
+ 
+ System and Software Engineering - Systems and software Quality Requirements and Evaluation (SQuaRE) - System and software quality models
+ 
+ Quality should be continuously assured.
+    - reviews
+    - unit and regression testing
+    - architecture analysis
+    
+ Quality models use detail and specifications to make the concept of software quality measurable.
+ 
+ <br>
+
+<div align="center"><img src="img/eval2-w369-h405.png" width=369 height=405><br><sub>Fig 24 - DIN ISO/IEC 25010 [ISO/IEC 9126] - (<a href='https://www.uc.pt/en/fctuc/dei'>Work by University of Coimbra - DEI - https://www.uc.pt/en/fctuc/dei </a>) </sub></div>
+
+<br>
 
 ## <a name="chapter8"></a>Chapter 8: Design Patterns
 
