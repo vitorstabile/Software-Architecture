@@ -1224,13 +1224,13 @@ Metrics for measurement and evaluation of architectural aspects
          - Abstractness, Instability, and distance from the main sequence
       - Cyclomatic complexity (Thomas J. McCabe, 1976)
 
-    - Analysis that focuses in process
+   - Analysis that focuses in process
       - Change frequencies
       
-    - Correct implementation of the architecture
+   - Correct implementation of the architecture
       - Static analysis tools
       
-    - Other metrics
+   - Other metrics
       - number of test cases, test cases per requirement, errors per package, changed requirements, etc
 
 #### <a name="chapter7part7"></a>Chapter 7 - Part 7: Qualitative evaluation
