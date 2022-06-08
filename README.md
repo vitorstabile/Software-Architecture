@@ -59,7 +59,7 @@
     - [Chapter 7 - Part 6: Quantitative analysis](#chapter7part6)
     - [Chapter 7 - Part 7: Qualitative evaluation](#chapter7part7)
 8. [Chapter 8: Design Patterns](#chapter8)
-    - [Chapter 8 - Part 1: xxxxxx](#chapter8part1)
+    - [Chapter 8 - Part 1: What is Design Patterns?](#chapter8part1)
     - [Chapter 8 - Part 2: yyyyyy](#chapter8part2)
 9. [Chapter 9: Economics for Software Architects](#chapter9)
     - [Chapter 9 - Part 1: xxxxxx](#chapter9part1)
@@ -1262,7 +1262,9 @@ Focused on analysing:
 
 ## <a name="chapter8"></a>Chapter 8: Design Patterns
 
-#### <a name="chapter8part1"></a>Chapter 8 - Part 1: xxxxxx
+#### <a name="chapter8part1"></a>Chapter 8 - Part 1: What is Design Patterns?
+
+https://refactoring.guru/design-patterns
 
 #### <a name="chapter8part2"></a>Chapter 8 - Part 2: yyyyyy
 
