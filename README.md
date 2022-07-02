@@ -1294,3 +1294,10 @@ Some of references that I use.
 2. [Software Engineering - Computer Notes][swcomputernotes-url]
 3. [Software Engineering - Geeks for Geeks][swgeeks-url]
 4. [Software Engineering - Java T Point][swjavatpoint-url]
+
+<!-- URL's -->
+
+[sebok-url]:https://www.sebokwiki.org/wiki/Guide_to_the_Systems_Engineering_Body_of_Knowledge_(SEBoK)
+[swcomputernotes-url]: https://ecomputernotes.com/software-engineering
+[swgeeks-url]: https://www.geeksforgeeks.org/software-engineering/?ref=lbp
+[swjavatpoint-url]: https://www.javatpoint.com/software-engineering-tutorial
